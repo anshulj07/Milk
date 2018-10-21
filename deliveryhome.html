@@ -1,0 +1,172 @@
+<html>
+    <style>
+        body
+        {
+            margin: 0;
+        }
+        .backtheme
+        {
+            background: url('dairy.jpg');
+            height: 700px;
+            background-repeat: no-repeat;
+            width: 100%;
+            margin: 0;
+        }
+        .logo
+        {
+           margin-top: 10px;
+           margin-left: 2%;
+/*           position: fixed;*/
+           width: 100%;     
+           padding-top: 10px;
+           font-family: cursive;
+        }
+        .logo1
+        {
+            padding-left: 0px;
+        }
+        .logo2
+        {
+            padding: 15px;
+            padding-left: 0px;
+        }
+        .logo3
+        {
+            padding-top: 0%;
+            padding-left: 10%;
+        }
+        .tag
+        {
+            color: white;
+        }
+        .menutheme
+        {
+            font-family: arial;
+            font-size: 15px;
+            color: white;
+            text-align: center;
+            width: 20%;
+            background-color: rgba(255,255,255,1);
+            
+        }
+        .menutheme:hover
+        {
+             background-color: rgba(0,0,0,0);
+             
+        }
+        a
+        {
+            text-decoration: none;
+        }
+        .logintheme
+        {
+            padding-top: 25px;
+            width: 500px;
+        }
+        form
+        {
+           padding-left: 165%;
+            padding-top: 4%;
+/*            width: 300px;*/
+           width: 100%;
+            margin: 0 auto;  
+        }
+        .designlogin
+        {
+            
+            background: url('white.jpg');
+            background-repeat: no-repeat;
+            padding-left: 4%;
+            height: 450px;
+            padding-top: 1%;
+        }
+        .labelclass1
+        {
+            font-family: arial;
+            font-size: 30px;
+           padding-top: 10%;
+        }
+        .labelclass
+        {
+            font-family: arial;
+            font-size: 20px;
+           
+        }
+        .input-field
+        {
+            width: 280px;
+            box-shadow: none;
+            background-color: transparent;
+            padding: 10px;
+            border: 1px solid #dfdfdf;
+        }
+        .submitbutton
+        {
+        border-radius: 2px;
+/*        border-width: 1px;
+        border-style: solid;
+        border-color: transparent;*/
+        color: #fff;
+/*        background: red;*/
+        background: #10609e;
+/*        margin-top: 20px;*/
+        font-size: 15px;
+        width: 250px;
+        padding: 12px 45px;
+        border: none;
+        
+        }
+    </style>
+    <head>
+        <title>Milkman</title>
+    </head>
+    <body>
+        <div class="backtheme">
+            
+            <header class="logo">
+                <table>
+                    <tr>
+                        <td class="logo1"><h1 class="tag"><img src="milk2.jpg"></td>
+                        <td class="logo2"><h1 class="tag"><img src="mil.png"></h1></td>
+                        </tr>
+                        </table>
+                 </header>
+               <table width=100%>
+                <tr>
+                    <td class="menutheme"><a href="#"><b>Home</b></a></td>
+                    <td class ="menutheme"><a href="#"><b>About</b></a></td>
+                    <td class="menutheme"><a href="#"><b>Product</b></a></td>
+                    <td class="menutheme"><a href="#"><b>Contact</b></a></td>
+                    <td class="menutheme"><a href="#"><b>Seller</b></a></td>
+                </tr>
+                </table>              
+            <div class="logintheme">
+            <table width=65% border="0">
+                <tbody>
+                    <tr>
+                        <td>
+                <form>
+                    <div class="designlogin">
+<!--                        <label class="labelclass1">MilkMan</label><br><br>-->
+                    <h1 class='logo3'><img src='mil2.png'></h1>
+                    <label class="labelclass">City</label><br>
+                    <input class="input-field" type="text" placeholder="City" name="cityid" required><br><br>
+                    
+                    <label class="labelclass">Area</label><br>
+                    <input class="input-field" type="text" placeholder="Area" name="areaid" required><br><br>
+                    
+                    <label class="labelclass">Address</label><br>
+                    <input class="input-field" type="text" placeholder="Adress" name="addressid" required><br><br>
+                    
+                    <label><input type="checkbox" required>I hereby declare all above information is correct</label><br><br>
+                    <input class="submitbutton" type="submit" value="Search">
+                    </div>
+                </form>
+                        </td>
+             </tr>
+                  </tbody>
+            </table>
+        </div>    
+        </div>
+    </body>
+</html>
