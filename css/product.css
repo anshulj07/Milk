@@ -284,7 +284,7 @@ input.qtyminus {
 
 
 
-form {
+.myform {
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -313,17 +313,17 @@ form {
     color: black;
 }
 
-form .decrease {
+.myform .decrease {
     margin-right: -4px;
     border-radius: 8px 0 0 8px;
 }
 
-form .increase {
+.myform .increase {
     margin-left: -4px;
     border-radius: 0 8px 8px 0;
 }
 
-form #input-wrap {
+.myform #input-wrap {
     margin: 0px;
     padding: 0px;
 }
