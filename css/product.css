@@ -87,6 +87,11 @@ a {
     text-align: center;
 }
 
+.sabsesmall img {
+    height: 140px;
+    width: auto;
+}
+
 .sabsesmall1 {
     text-align: center;
     font-family: cursive;
