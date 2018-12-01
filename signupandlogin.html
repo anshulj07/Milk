@@ -1,0 +1,164 @@
+<html>
+    <style>
+        body
+        {
+            background-color: lightblue;
+        }
+        .signup
+        {
+            
+            width: 280px;
+            box-shadow: none;
+            background-color: transparent;
+            padding: 10px;
+            border: 1px solid #dfdfdf;
+            margin: 0 auto;
+        }
+        .signup1
+        {
+            width: 570px;
+            box-shadow: none;
+            background-color: transparent;
+            padding: 10px;
+            border: 1px solid #dfdfdf;
+        }
+        .submitbutton
+        {
+        border-radius: 2px;
+        color: #fff;
+        background: #10609e;
+        font-size: 15px;
+        width: 250px;
+        padding: 12px 45px;
+        border: none;
+        text-align: center;
+        }
+        
+        .overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  padding-left: 450px;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*.popup1 {
+  margin: 70px auto;
+  padding-left: 30px;
+  background: #fff;
+  border-radius: 5px;
+  width: 40%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup1 .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup1 .close:hover {
+  color: #06D85F;
+}*/
+/*.popup1 .content {
+  max-height: 70%;
+  overflow: auto;
+}*/
+   .content {
+  max-height: 70%;
+  overflow: auto;
+  background-color: white;
+  width: 30%;
+/*  padding-left: 150px;*/
+  padding-top: 50px;
+}
+ form
+        {
+           
+            padding-top: 10%;
+            /*width: 300px;*/
+            margin: 0 auto;  
+            
+        }
+        .formmove
+        {
+            padding-left: 400px;
+            width: 2000px;
+        }
+  .sign
+  {
+      width: 50%;
+      text-decoration: none;
+      font-size: 15px;
+      font-family: sans-serif;
+      padding-left: 110px;
+      background-color: rgba(255,255,255,1);
+      height: 10px;
+  }  
+  .login
+  {
+      width: 50%;
+      text-decoration: none;
+      font-size: 15px;
+      font-family: sans-serif;
+      padding-left: 110px;
+      background-color: rgba(255,255,255,1);
+      height: 10px;
+  } 
+   .login:hover
+        {
+             background-color: rgba(0,0,0,0);
+             
+        }
+    .sign:hover
+        {
+             background-color: rgba(0,0,0,0);
+             
+        }
+    </style>
+    <body>
+<!--      <div id="popup2" class="overlay">
+            <div class="popup1">
+                <a class="close" href="#">$times;</a>-->
+<form>
+    
+    <div class="formmove">
+            <div class='content'>
+                <table border="1" width="100%">
+                    <tr>
+                        <td class="sign">SIGNUP</td>
+                        <td class="login">LOGIN</td>
+                    </tr>
+                </table><br>
+                &nbsp;&nbsp;&nbsp;<input class="signup" type="text" placeholder="First Name" name="firstid" required>&nbsp;
+       <input class="signup" type="text" placeholder="Last Name" name="lastid" required><br><br>
+       &nbsp;&nbsp;&nbsp;<input class="signup1" type="email" placeholder="Email Address" name="emailid" required><br><br>
+       &nbsp;&nbsp;&nbsp;<input class="signup1" type="password" placeholder="Password" name="passwordid" required><br><br>
+       &nbsp;&nbsp;&nbsp;<label class='textcolor'><input type="checkbox" required>I hereby declare all above information is correct</label><br><br>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input class=submitbutton type="submit" value="Get Started"><br><br>
+       </div>
+        <div>
+ </form>
+
+                </div>
+            </div>
+       </body>
+</html>
