@@ -18,3 +18,11 @@ jQuery(document).ready(function () {
         }
     });
 });
+
+$('.login-tab').click(function () {
+    $('.signup-active').removeClass('signup-active').addClass('login-active');
+})
+
+$('.signup-tab').click(function () {
+    $('.login-active').removeClass('login-active').addClass('signup-active');
+})

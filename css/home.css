@@ -1,21 +1,23 @@
 body {
     margin: 0;
+    font-size: 14px;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .backtheme {
-    background: url('dairy.jpg');
-    height: 700px;
+    background: url('../img/dairy.jpg');
+    min-height: 100vh;
     background-repeat: no-repeat;
     width: 100%;
     margin: 0;
 }
 
 .logo {
-    margin-top: 10px;
-    margin-left: 2%;
-    /*           position: fixed;*/
     width: 100%;
-    padding-top: 10px;
+    padding: 0px 30px;
     font-family: cursive;
 }
 
@@ -58,24 +60,19 @@ a {
 
 .logintheme {
     padding-top: 25px;
-    width: 500px;
+    width: 100%;
 }
 
 form {
-    padding-left: 165%;
-    padding-top: 4%;
-    /*            width: 300px;*/
-    width: 100%;
+    width: 300px;
     margin: 0 auto;
 }
 
 .designlogin {
-
-    background: url('white.jpg');
+    background: #ffffff;
     background-repeat: no-repeat;
-    padding-left: 4%;
-    height: 450px;
-    padding-top: 1%;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .labelclass1 {
@@ -86,12 +83,16 @@ form {
 
 .labelclass {
     font-family: arial;
-    font-size: 20px;
+    font-size: 14px;
 
 }
 
+label {
+    font-size: 14px;
+}
+
 .input-field {
-    width: 280px;
+    width: 100%;
     box-shadow: none;
     background-color: transparent;
     padding: 10px;

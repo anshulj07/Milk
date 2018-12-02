@@ -1,15 +1,16 @@
 body {
     margin: 0;
-    background: url('paper.jpg') no-repeat;
+    background: url('../img/paper.jpg') no-repeat;
     background-size: cover;
 }
 
-.backtheme {
+* {
+    box-sizing: border-box;
+}
 
-    height: 700px;
+.backtheme {
     width: 100%;
     margin: 0;
-
 }
 
 .logo {
@@ -300,10 +301,10 @@ input.qtyminus {
     border: 1px solid #ddd;
     margin: 0px;
     width: 40px;
-    height: 20px;
+    height: 25px;
+    line-height: 23px;
     text-align: center;
     vertical-align: middle;
-    padding: 11px 0;
     background: #eee;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -336,11 +337,9 @@ input.qtyminus {
 input.number {
     text-align: center;
     border: none;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
     margin: 0px;
     width: 40px;
-    height: 40px;
+    height: 25px;
 }
 
 input[type=number]::-webkit-inner-spin-button,
